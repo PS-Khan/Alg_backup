@@ -58,6 +58,13 @@ The given linked list will contain between 1 and 1000 nodes.
 Each node in the linked list has -1000 <= node.val <= 1000.
 
 */
+#include <iostream>
+#include <string>
+#include <vector>
+#include <array>
+#include <algorithm>
+using namespace std;
+
 struct ListNode {
       int val;
       ListNode *next;
@@ -65,12 +72,7 @@ struct ListNode {
      ListNode(int x) : val(x), next(nullptr) {}
      ListNode(int x, ListNode *next) : val(x), next(next) {}
   };
-#include <iostream>
-#include <string>
-#include <vector>
-#include <array>
-#include <algorithm>
-using namespace std;
+
 
 ListNode* removeZeroSumSublists(ListNode* head) {
         
