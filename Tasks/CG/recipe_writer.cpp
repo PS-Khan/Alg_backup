@@ -68,7 +68,7 @@ int main()
             if (part.length() > 1) {
                 sub = std::stoi(part.substr(0, part.length() - 1));
             }else{
-                sub = std::stoi(part);
+                sub = std::stoi(part);// i think this is redundant
             }
             while (sub > 0){
                 answear+=lastDigit;

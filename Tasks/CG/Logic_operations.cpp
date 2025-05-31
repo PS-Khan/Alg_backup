@@ -191,7 +191,7 @@ int main()
         std::cerr<<output_name <<" type: "<< type<<" " <<input_name_1<<" "<< input_name_2<< std::endl;
         string res;
         res += output_name+' '+ compute(type,signals,input_name_1,input_name_2);
-        cout <<res<<std::endl;;
+        cout <<res<<std::endl;
 
     }
     
